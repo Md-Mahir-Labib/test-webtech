@@ -1,16 +1,12 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Pental Shop</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
-<body>
 
+<body>
     <h1>Welcome to Pental Shop</h1>
 
-    <br>
-
-    <table border="1" cellpadding="5" cellspacing="0">
+    <table border="1">
         <tr>
             <th>Item Name</th>
             <th>Quantity</th>
@@ -33,22 +29,19 @@
         </tr>
     </table>
 
-    <br><br>
-
     <form>
-        <h2>Contact Information</h2>
-        
-        <label for="name">Name</label><br>
-        <input type="text" id="name" name="name"><br><br>
+        <h1 class="HeaderSize">Contact Information</h1>
 
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email"><br><br>
+        <label>Name</label>
+        <input type="text" />
 
-        <label for="message">Message</label><br>
-        <textarea id="message" name="message" rows="5"></textarea><br><br>
+        <label>Email</label>
+        <input type="email" />
 
-        <input type="submit" value="Submit">
+        <label>Message</label>
+        <textarea rows="5" cols="40"></textarea>
+
+        <input type="submit" value="Submit" class="button" />
     </form>
-
 </body>
 </html>

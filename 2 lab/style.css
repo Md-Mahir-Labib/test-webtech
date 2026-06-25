@@ -1,43 +1,39 @@
-form {
-    background-color: #c2f0d5; 
-    padding: 30px;             
-    border-radius: 20px;       
-    width: 500px;              
-    font-family: Arial, sans-serif; 
+body {
+  background-color: lightgray;
 }
 
-input[type="text"], input[type="email"], textarea {
-    width: 100%;               
-    padding: 8px;              
-    border: 1px solid white;   
-    border-radius: 8px;        
-    box-sizing: border-box;    
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: brown;
+  margin: 20px 20px 20px 20px;
 }
 
-input[type="submit"] {
-    background-color: skyblue;   
-    color: black;              
-    padding: 10px 25px;        
-    border: none;              
-    border-radius: 12px;       
-    font-size: 16px;           
-    cursor: pointer;           
+h1.HeaderSize {
+  font-size: 26px;
 }
+
 table {
-    width: 600px;
-    border-collapse: collapse;
-    font-family: Arial, sans-serif;
+  width: 500px;
+  margin: 20px 20px 20px 20px;
 }
 
 table th {
-    background-color: #1e6b7b;
-    color: skyblue;
-    padding: 10px;
-    text-align: left;
-    border: 1px solid white;
+  background-color: lightblue;
+  color: black;
+  padding: 5px 20px 5px 20px;
 }
 
 table td {
-    padding: 8px;
-    border: 1px solid #1e6b7b;
+  padding: 5px 20px 5px 20px;
+  background-color: beige;
+}
+
+form {
+  background-color: lightgreen; 
+  margin: 20px 20px 20px 20px;
+}
+
+.button {
+  margin: 20px 20px 20px 20px;
+  padding: 5px 20px 5px 20px;
 }

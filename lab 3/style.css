@@ -1,0 +1,23 @@
+table {
+    color:black;
+  width: 70%;
+  margin: 10px 0px 20px 0px;
+}
+table td {
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+input[type="text"], input[type="email"], input[type="password"],
+ input[type="number"], input[type="date"], input[type="tel"] 
+ {
+  width: 70%;
+}
+button { color: rgb(93, 55, 175);
+  width: 70%;
+  margin: 10px 0px 20px 0px;
+}
+legend {
+    
+  font-size: 1.25em;
+  color: rgb(93, 55, 175);
+}
